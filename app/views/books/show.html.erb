@@ -1,11 +1,16 @@
 <body>
-  
-  
+
+
   <p><strong>Titile:</strong></p>
-  
-  
+  <%= @book.title %>
+
+
   <p><strong>Body:</strong></p>
-  
-  
-  
+  <%= @book.body %>
+
+
+  <p><%= link_to 'Edit', "/books" %></p>
+  <p><%= link_to 'Back', "/books" %></p>
+
+
 </body>
