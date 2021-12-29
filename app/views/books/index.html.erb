@@ -27,16 +27,16 @@
   <%= form_with model: @dook, url:'books', local:true do |f| %>
   <form class"new_book">
     <div class="field">
-    <label for="book_title">Title</label>
-    <span><%= f.text_field :title %></span>
-  </div>
-  <div class="field">
-    <label for="book_body">Body</label>
-    <span><%= f.text_area :body %></span>
-  </div>
-  <div class="action">
+     <label for="book_title">Title</label>
+     <span><%= f.text_field :title %></span>
+    </div>
+    <div class="field">
+     <label for="book_body">Body</label>
+     <span><%= f.text_area :body %></span>
+   </div>
+   <div class="action">
     <%= f.submit 'Create Book' %>
-  </div>
+   </div>
   </form>
 
 <% end %>
